@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body{
+    color: white;
+    background-color: rgb(163, 193, 219);
+}
+
+.cardcontainer{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+    background-color: rgb(33, 33, 33);
+    margin: 2% auto;
+    width: 30rem;
+    height: 40rem;
+    border-radius: 20px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+.namenum{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 96%;
+    background-color: rgba(0, 0, 0, 0.31);
+    padding: 10px;
+    border-radius: inherit;
+}
+
+.name{
+    background-color: black;
+    border-radius: 5px;
+    padding: 2px 10px;
+
+}
+
+.numberid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.image{
+    margin: 10px;
+    display: flex;
+    background-color: rgba(109, 109, 109, 0.562);
+    width: 95%;
+    height: 60%;
+    justify-content: center;
+    border-radius: inherit;
+}
+
+.items::after{
+    content: "ITEMS";
+    position:absolute;
+    margin-top: -130px;
+ }
+
+ .items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+    height: 20%;
+    border-radius: inherit;
+    justify-content: space-around;
+    background-color: rgba(109, 109, 109, 0.562);
+ }
+
+ .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    height: 80%;
+    border-radius: inherit;
+    width: 40%;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+ }
+
+ .item img{
+    width: 30%;
+ }
