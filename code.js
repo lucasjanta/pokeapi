@@ -1,11 +1,23 @@
+selecionapoke((Math.random() * 1010).toFixed(0));
 
 const submitform = document.getElementById('submitbutton');
 const randombutton = document.getElementById('randombutton');
+var numeroid = document.getElementById('inumber');
 
 submitform.addEventListener('click',()=>{
     itens.innerHTML = "";
-    var numeroid = document.getElementById('inumber');
+    numeroid = document.getElementById('inumber');
     selecionapoke(numeroid.value);
+})
+
+numeroid.addEventListener('keypress',(event)=>{
+    if (event.key === "Enter") {
+        itens.innerHTML = "";
+        // Cancel the default action, if needed
+        event.preventDefault();
+        // Trigger the button element with a click
+        submitform.click();
+      }
 })
 
 randombutton.addEventListener('click',()=>{

@@ -95,7 +95,7 @@ body{
  }
 
  .item img{
-    width: 30%;
+    width: auto;
  }
 
  .random{
