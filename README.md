@@ -18,7 +18,7 @@ You can choose how many pokemons will appear
 - [x] Input for the number of Pokemons
 
 ## Update
-I practiced handling an API in order to create a card that shows the name, id and items of a pokemon, it was a nice study since I was able to enhance my skills with API's
+I practiced handling an API in order to create a card that shows the name, id and items of a pokemon, it was a nice study since I was able to enhance my skills with APIs
 
 ![image](https://user-images.githubusercontent.com/6317729/223596895-22b2be49-8845-4a9c-82fc-9261b55eed37.png)![image](https://user-images.githubusercontent.com/6317729/223596969-ab2cea2e-4130-4f61-9f04-daf3814c82b0.png)
 
